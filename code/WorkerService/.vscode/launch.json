@@ -22,13 +22,9 @@
       "processId": "${command:pickProcess}"
     },
     {
-      "name": "Docker .NET Core Launch",
-      "type": "docker",
-      "request": "launch",
-      "preLaunchTask": "docker-run: debug",
-      "netCore": {
-        "appProject": "${workspaceFolder}/WorkerService.csproj"
-      }
+      "name": "Local Process with Kubernetes",
+      "type": "local-process-with-kubernetes.configuration",
+      "request": "launch"
     }
   ]
 }

@@ -9,6 +9,7 @@ Please prepare your system and install the following software:
 - [.NET Core SDK 3.1.302](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Helm](https://github.com/helm/helm/releases)
 
 Additionally, prepare the following settings and extensions:
 
@@ -25,6 +26,7 @@ Install the following extensions:
 - [YAML 0.9.1](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [C# 1.22.1](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 - [dotnet 1.2.0](https://marketplace.visualstudio.com/items?itemName=leo-labs.dotnet)
+- [NuGet Package Manager 1.1.6](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
 - [Azure Account 0.8.11](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)
 - [Azure CLI Tools 0.5.0](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
 - [Docker 1.4.1](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
@@ -40,7 +42,7 @@ Please find them using the following link:
 - [Step 03](steps/step-03/README.md) - Create a resource group in your Azure subscription
 - [Step 04](steps/step-04/README.md) - Create the AKS (Azure Kubernetes Service) resource in your Azure subscription
 - [Step 05](steps/step-05/README.md) - Create the ACR (Azure Container Registry) resource in your Azure subscription
-- [Step 06](steps/step-06/README.md)
+- [Step 06](steps/step-06/README.md) - Deploy the Worker Service inside the Kubernetes cluster
 - [Step 07](steps/step-07/README.md)
 - [Step 08](steps/step-08/README.md)
 - [Step 09](steps/step-09/README.md)
