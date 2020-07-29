@@ -1,6 +1,6 @@
 # Involved Café 2020-07: AKS Workshop
 
-[Previous step](../step-05/README.md) - [Next step](../step-071/README.md)
+[Previous step](../step-05/README.md) - [Next step](../step-07/README.md)
 
 ## Step 6 - Deploy the Worker Service inside the Kubernetes cluster
 
@@ -85,4 +85,4 @@ Right-click on the running Pod and choose Follows Logs to see the console output
 
 ![dotnet new](sshot-37.png)
 
-[Previous step](../step-05/README.md) - [Next step](../step-071/README.md)
+[Previous step](../step-05/README.md) - [Next step](../step-07/README.md)

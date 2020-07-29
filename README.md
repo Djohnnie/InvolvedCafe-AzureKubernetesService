@@ -43,10 +43,13 @@ Please find them using the following link:
 - [Step 04](steps/step-04/README.md) - Create the AKS (Azure Kubernetes Service) resource in your Azure subscription
 - [Step 05](steps/step-05/README.md) - Create the ACR (Azure Container Registry) resource in your Azure subscription
 - [Step 06](steps/step-06/README.md) - Deploy the Worker Service inside the Kubernetes cluster
-- [Step 07](steps/step-07/README.md)
-- [Step 08](steps/step-08/README.md)
-- [Step 09](steps/step-09/README.md)
-- [Step 10](steps/step-10/README.md)
+- [Step 07](steps/step-07/README.md) - Create an ASP.NET Core WebApi and deploy it to Kubernetes
+- [Step 08](steps/step-08/README.md) - Expose the ASP.NET Core WebApi as a network service
+- [Step 09](steps/step-09/README.md) - Make changes to the .NET Core Worker Service and make it call the WebApi to fetch the machine name
+- [Step 10](steps/step-10/README.md) - Create an ASP.NET Core MVC Web application and deploy it to Kubernetes
+- [Step 11](steps/step-11/README.md) - Create a public IP-address and domain name
+- [Step 12](steps/step-12/README.md) - Add an NGINX ingress controller
+- [Step 13](steps/step-13/README.md) - Have some fun with the Web application and deployments of the WebApi
 
 ## Code
 

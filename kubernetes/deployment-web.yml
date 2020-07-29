@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapi
+  name: web
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
-      app: webapi
+      app: web
   template:
     metadata:
       labels:
-        app: webapi
+        app: web
     spec:
       containers:
       - name: webapi
-        image: involvedcafe202007.azurecr.io/webapi:latest
+        image: involvedcafe202007.azurecr.io/web:latest
         resources:
           limits:
             memory: "128Mi"
-            cpu: "100m"
+            cpu: "500m"
         ports:
         - containerPort: 80

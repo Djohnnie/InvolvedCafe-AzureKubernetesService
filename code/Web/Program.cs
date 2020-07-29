@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace WebApi
+namespace Web
 {
-  public class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
