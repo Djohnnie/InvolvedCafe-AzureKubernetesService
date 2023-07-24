@@ -3,6 +3,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="106.11.4"/>
+    <PackageReference Include="RestSharp" Version="106.12.0"/>
   </ItemGroup>
 </Project>
